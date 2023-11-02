@@ -1,0 +1,22 @@
+
+.contact-link {
+    color: rgba(0,0,0,0.7);
+}
+
+.contact-link:hover {
+    border-bottom: solid #f0c415 2px;
+    margin-bottom: -2px;
+    text-decoration: none!important;
+    color: rgba(0,0,0,0.8)!important;
+}
+
+.contact-margin {
+    margin: 0 3rem 3rem 3rem!important;
+}
+
+@media(max-width: 576px) {
+
+    .contact-margin{
+        margin: unset!important;
+    }
+}

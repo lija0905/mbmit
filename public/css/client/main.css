@@ -1,0 +1,274 @@
+@font-face {
+    font-family: DINPro;
+    src: url('../../fonts/FontsFree-Net-DINPro-1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: DINProBold;
+    src: url('../../fonts/DINPro-Bold.otf') format('truetype');
+}
+
+@font-face {
+
+    font-family: DINProMedium;
+    src: url('../../fonts/DINPro-Medium_13936.ttf') format('truetype');
+}
+body {
+    font-family: DINPro, Arial, sans-serif!important;
+}
+
+.top-nav-style {
+    font-size: 13px;
+    background-color: rgba(120, 0, 0, 1);
+}
+
+.bg-etf-content {
+    background-color: rgba(145, 142, 141, 0.5);
+}
+
+.bg-theme-light {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-theme-light:before {
+    content: "";
+    background-image: url("../../assets/img/cover10.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.bg-theme-yellow {
+    background-color: #f0c415!important;
+}
+
+.bg-red-color {
+    background-color: #db6156!important;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.nav-link-color {
+    color: rgba(255,255,255,0.8)!important;
+}
+
+.label-cursor-pointer {
+    cursor: pointer!important;
+}
+
+.font-bold {
+    font-family: DINProBold, Arial, sans-serif!important;
+}
+
+.font-medium {
+    font-family: DINProMedium, Arial, sans-serif!important;
+}
+.font-size-16 {
+    font-size: 1.6rem!important;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.overflow-visible {
+    overflow: visible!important;
+}
+
+.second-nav-link, .dropdown-nav-link{
+    font-size: 1.1rem!important;
+
+}
+.second-nav-link:hover {
+    cursor: pointer!important;
+    border-bottom: solid #f0c415 3px;
+    margin-bottom: -3px;
+}
+
+.dropdown-nav-link:hover {
+    cursor: pointer!important;
+}
+
+.dropdown-item-color {
+    color: whitesmoke!important;
+}
+
+.dropdown-item-color:hover {
+    background-color: #db6156!important;
+    opacity: 0.8!important;
+}
+
+.bg-color-blue {
+    background-color: rgba(198,216,226,0.5)!important;
+}
+
+.bg-color-blue-slide {
+    background-color: rgba(198,216,226,1)!important;
+}
+.logo-etf {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-md {
+    display: none!important;
+}
+
+.card-shadow {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-link {
+    color: rgba(0,0,0,0.8);
+}
+
+.custom-link:hover {
+    border-bottom: solid #f0c415 2px;
+    margin-bottom: -2px;
+    text-decoration: none!important;
+    color: rgba(0,0,0,0.8)!important;
+}
+
+.main-nav {
+    background-image: url("../../assets/img/cover10.jpg");
+    height: 200px;
+}
+
+.welcome-margin {
+    margin-left: 3rem!important;
+    margin-right: 3rem!important;
+}
+
+.border-width {
+    width: 25%;
+}
+
+.bottom-border-style {
+    border-bottom: 2px solid rgba(198,216,226,0.5)!important;
+}
+
+.bottom-border-titles {
+    border-bottom: 2px #f0c415 solid!important;
+}
+
+.breadcrumb-link {
+    color: rgba(0,0,0,0.8);
+}
+
+.breadcrumb-link:hover {
+    text-decoration:none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.font-size-14 {
+    font-size:14px!important;
+}
+
+.font-size-15 {
+    font-size:15px!important;
+}
+.font-size-13 {
+    font-size:15px!important;
+}
+.font-italic {
+    font-style: italic;
+}
+
+.languages-responsive {
+    display: none;
+}
+
+.language-responsive-link {
+    color: rgba(0,0,0,0.8)!important;
+}
+
+.header-sm {
+    display: none!important;
+}
+
+@media(max-width: 991px) {
+
+    .top-navigation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .first-nav {
+        display: none!important;
+    }
+
+
+    .second-nav-link{
+        font-size: 1.1rem!important
+    }
+
+    .welcome-margin {
+        margin-left: unset!important;
+        margin-right: unset!important;
+    }
+
+    .welcome-card-margin{
+        margin-bottom: 2rem;
+    }
+
+    .border-width {
+        width: 100%;
+    }
+
+    .languages-responsive {
+        display: flex!important;
+        justify-content: flex-end!important;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+
+    .logo-etf {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .bmit-photo {
+        width: 40%;
+    }
+
+    .title-sm {
+        text-align: center;
+    }
+
+    .main-nav {
+        height: unset!important;
+    }
+
+    .logo-header {
+        height: 30%;
+    }
+
+    .title-div {
+        margin-top: 2rem!important;
+    }
+
+}

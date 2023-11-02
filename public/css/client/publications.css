@@ -1,0 +1,45 @@
+.publications-div {
+    width: 75%;
+}
+
+.toggle-abstract-icon {
+    font-size:13px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.abstract-click {
+    color: rgba(0,0,0,0.7)!important;
+}
+
+.abstract-click:hover {
+    border-bottom: solid #f0c415 2px;
+    margin-bottom: -2px;
+    text-decoration: none!important;
+    color: rgba(0,0,0,0.8)!important;
+}
+
+.publication-link {
+    color: rgba(0,0,0,0.5);
+}
+
+.publication-link:hover {
+    border-bottom: solid #f0c415 2px;
+    margin-bottom: -2px;
+    text-decoration: none!important;
+    color: rgba(0,0,0,0.8)!important;
+}
+
+.border-width-publications {
+    width: 50%;
+}
+
+@media (max-width: 992px) {
+
+    .publications-div {
+        width: 100%!important;
+    }
+
+    .border-width-publications {
+        width: 100%!important;
+    }
+}

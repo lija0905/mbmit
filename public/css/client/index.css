@@ -1,0 +1,110 @@
+.carousel-caption-custom {
+    position: absolute;
+    right: 1%;
+    top: 77%;
+    bottom: 0;
+    left: 65%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.color-card-slider {
+    /* background-color:rgba(237, 242, 244, 1); */
+    background-color: rgba(237, 242, 244, 1);
+    color: #000000;
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 0 15px 15px 15px; width: 100%; position:relative; }
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left; height: 350px;}
+.MultiCarousel .MultiCarousel-inner .item > div { padding:0 10px 10px 10px; margin:10px; height: 100%;}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+.news-text-limit {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.news-card-footer {
+    border-top: none!important;
+    text-align: end;
+    background-color: #ffffff!important;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.archive-news {
+    background-color: #f0c415;
+    color: #ffffff!important;
+}
+
+.archive-news:hover {
+    background-color: rgba(240, 196, 21, 0.7);
+}
+
+.project-text-limit {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
+
+.abstract-publication {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.slider-height {
+    height: 450px;
+}
+
+@media (max-width: 992px) {
+    .carousel-caption-custom {
+        position: absolute;
+        right: 25%;
+        top: 79%;
+        left: 25%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .news-row {
+        margin-top: 5%;
+    }
+
+    .slider-height {
+        height: 380px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .carousel-caption-custom {
+        position: absolute;
+        right: 0%;
+        top: 79%;
+        left: 0%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .slider-height {
+        height: 250px;
+    }
+}

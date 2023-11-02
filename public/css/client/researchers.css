@@ -1,0 +1,27 @@
+.researcher-image {
+    width: 100%;
+}
+
+
+@media (max-width: 992px) {
+
+    .researcher-name {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .researcher-image {
+        width: 50%!important;
+        margin: auto;
+    }
+
+    .researcher-bio {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
